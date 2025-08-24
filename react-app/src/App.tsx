@@ -1,6 +1,4 @@
-import './App.css'
-
-import Table from './components/table' 
+import Table from './components/UI/Table/Table' 
 
 function App() {
 

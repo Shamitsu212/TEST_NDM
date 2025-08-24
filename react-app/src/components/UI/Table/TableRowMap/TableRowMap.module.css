@@ -1,0 +1,9 @@
+.table__row {
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  
+}

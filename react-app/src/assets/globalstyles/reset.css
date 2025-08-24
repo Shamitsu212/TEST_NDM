@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background: none;
+    color: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button, input, select, textarea {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    outline: none;
+}
+
+img, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

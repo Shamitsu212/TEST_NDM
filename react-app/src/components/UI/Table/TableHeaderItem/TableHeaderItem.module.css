@@ -1,0 +1,19 @@
+.header__item {
+  min-height: 6vh; 
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33%;
+
+  padding: 1.5% 2%; 
+}
+
+.item__arrow {
+  color: rgb(189, 189, 189);
+  font-size: 1.2rem; 
+}

@@ -1,0 +1,13 @@
+.row__item {
+  min-height: 6vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33%;
+
+  padding-left: 2%;
+}

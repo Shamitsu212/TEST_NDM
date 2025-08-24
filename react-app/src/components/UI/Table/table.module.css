@@ -1,0 +1,23 @@
+.table {
+  background-color: rgb(245, 246, 250);
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5%; 
+
+  height: 60vh; 
+  max-height: 460px; 
+  min-height: 200px;
+
+  width: 100%;
+}
+
+.tableRowContainer{
+  max-height: 420px; 
+  min-height: 200px; 
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
